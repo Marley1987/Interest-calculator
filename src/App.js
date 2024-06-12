@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import BalanceDisplay from './BalanceDisplay';
 import Controls from './Controls';
+import footer from './footer';
 import './App.css';
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
   return (
     <div>
 
-      <h1>Banking Application</h1>
+      <h1>Banking Application <br>
+      </br>Created by Marley</h1>
 
       <BalanceDisplay balance={balance} />
     
@@ -41,6 +43,8 @@ function App() {
         chargeFees={chargeFees}
 
        />
+
+       <footer />
 
     </div>
   );
