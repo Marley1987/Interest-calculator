@@ -29,10 +29,9 @@ function App() {
   };
 
   return (
-    <div>
+    <div class="container p-5 my-5 bg-dark text-white">
 
-      <h1>Banking Application <br>
-      </br>Created by Marley</h1>
+      <h1>Banking Application Created By Marley &copy;</h1>
 
       <BalanceDisplay balance={balance} />
     
