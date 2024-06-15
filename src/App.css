@@ -26,3 +26,14 @@ h1 {
 
   font-size: 40pt;
 }
+
+
+@media only screen and (max-width: 600px) {
+body {
+
+  width: 100%;
+  font-size: 24px;
+
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
